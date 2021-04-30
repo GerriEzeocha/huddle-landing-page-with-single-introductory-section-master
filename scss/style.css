@@ -29,8 +29,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
-  width: 100%;
 }
 
 @media (min-width: 64em) {
@@ -85,6 +83,7 @@ body {
 
 @media (min-width: 64em) {
   .mainContainer {
+    padding: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -93,7 +92,7 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     background-image: none;
-    overflow-y: hidden;
+    overflow: hidden;
   }
 }
 
@@ -106,7 +105,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 110vh;
+    overflow: hidden;
   }
 }
 
