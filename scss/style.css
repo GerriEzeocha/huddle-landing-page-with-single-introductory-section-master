@@ -236,6 +236,17 @@ body {
   }
 }
 
+@media (min-width: 87.5em) {
+  .pg-illustration {
+    width: 54rem;
+    padding: 40px;
+  }
+  .pg-illustration img {
+    width: 100%;
+    padding-top: 5rem;
+  }
+}
+
 .cta-heading {
   text-align: center;
   color: white;
@@ -252,6 +263,14 @@ body {
     font-size: 28px;
     text-align: left;
     padding: 5px;
+  }
+}
+
+@media (min-width: 87.5em) {
+  .cta-heading .heading {
+    font-size: 34px;
+    text-align: left;
+    padding: 8px;
   }
 }
 
