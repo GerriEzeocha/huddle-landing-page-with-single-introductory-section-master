@@ -268,7 +268,7 @@ body {
 
 @media (min-width: 87.5em) {
   .cta-heading .heading {
-    font-size: 34px;
+    font-size: 3.5rem;
     text-align: left;
     padding: 8px;
   }
