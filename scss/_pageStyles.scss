@@ -28,6 +28,7 @@
     }
 
     @include breakpoints(laptop){
+        height: 550px;
         width: 51rem;
         padding: 37px;
 

@@ -29,13 +29,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100%;
 }
 
 @media (min-width: 64em) {
   body {
     background-image: url(/images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -83,10 +84,11 @@ body {
 
 @media (min-width: 64em) {
   .mainContainer {
-    padding: 2rem;
+    padding: 4rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 100vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -140,7 +142,8 @@ body {
 
 @media (min-width: 64em) {
   .section1 {
-    height: 0;
+    height: 750px;
+    padding: 1rem;
   }
 }
 
@@ -226,6 +229,7 @@ body {
 
 @media (min-width: 64em) {
   .pg-illustration {
+    height: 550px;
     width: 51rem;
     padding: 37px;
   }

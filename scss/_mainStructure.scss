@@ -13,8 +13,9 @@
     }
 
     @include breakpoints(laptop){
-        padding: 2rem;
+        padding: 4rem;
         display: flex;
+        height: 100vh;
         flex-direction: row;
         background-image: none;
         overflow: hidden;
@@ -41,7 +42,8 @@
     }
 
     @include breakpoints(laptop){
-        height: 0;
+        height: 750px;
+        padding: 1rem;
     }
 }
 
